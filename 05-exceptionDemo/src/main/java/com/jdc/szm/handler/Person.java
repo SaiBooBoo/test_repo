@@ -2,19 +2,14 @@ package com.jdc.szm.handler;
 
 public class Person {
 	
-	private int id;
+	private int age;
 	private String name;
 
-	public Person(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
+	public int getAge() {
+		return age;
 	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
+	public void setAge(int age) {
+		this.age = age;
 	}
 	public String getName() {
 		return name;
@@ -22,4 +17,6 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	
 }
