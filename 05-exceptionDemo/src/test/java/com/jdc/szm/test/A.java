@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import com.jdc.szm.check.CheckException;
 
-public class CheckExceptionTest {
+public class A {
 
 	CheckException data = new CheckException();
 	@Test
